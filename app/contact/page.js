@@ -104,7 +104,7 @@ const ContactPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Speak directly with a loan officer.</p>
               <a href="tel:+15551234567" className="text-lg font-semibold text-brand-blue hover:underline">
-                +63 931 870 2559
+                +27 70 462 0709
               </a>
               <p className="text-sm text-gray-500 mt-2">Mon-Fri: 9am - 6pm PST</p>
             </div>
@@ -190,7 +190,7 @@ const ContactPage = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-transparent outline-none transition-all"
-                      placeholder="+63 931 870 2559"
+                      placeholder="+27 70 462 0709"
                     />
                   </div>
                 </div>

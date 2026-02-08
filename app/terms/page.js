@@ -69,7 +69,7 @@ const TermsPage = () => {
             <p className="text-gray-600">N Western St ,	San Juan</p>
             <p className="text-gray-600">Metro Manila 1502 Philippines</p>
             <p className="text-gray-600 mt-2">Email: legal@evercrestlending.com</p>
-            <p className="text-gray-600">Phone: +63 931 870 2559</p>
+            <p className="text-gray-600">Phone: +27 70 462 0709</p>
           </div>
         </div>
       </div>
