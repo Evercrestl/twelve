@@ -1099,7 +1099,7 @@ export default function Register() {
 
                                     <div className="space-y-1">
                                         <label className="text-xs font-bold text-gray-500 uppercase ml-1">Phone Number *</label>
-                                        <PhoneInput country={'ph'} value={form.phoneNumber} onChange={(phone) => setForm({ ...form, phoneNumber: phone })} inputClass="!w-full !h-[50px] !border-gray-200 !rounded-xl !bg-gray-50" />
+                                        <PhoneInput country={'za'} value={form.phoneNumber} onChange={(phone) => setForm({ ...form, phoneNumber: phone })} inputClass="!w-full !h-[50px] !border-gray-200 !rounded-xl !bg-gray-50" />
                                     </div>
                                     <div className="space-y-1">
                                         <label className="text-xs font-bold text-gray-500 uppercase ml-1">Date of Birth *</label>

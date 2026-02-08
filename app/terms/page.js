@@ -52,7 +52,7 @@ const TermsPage = () => {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. Governing Law</h2>
           <p className="text-gray-700 mb-4">
-            These Terms and Conditions shall be governed by and construed in accordance with the laws of the Republic of the Philippines. Any dispute arising out of or in connection with these Terms and Conditions shall be subject to the exclusive jurisdiction of the competent courts of Manila, Philippines, without regard to conflict of law principles.
+            These Terms and Conditions shall be governed by and construed in accordance with the laws of the Republic of South Africa. Any dispute arising out of or in connection with these Terms and Conditions shall be subject to the exclusive jurisdiction of the High Court of South Africa, Western Cape Division, Cape Town, without regard to conflict of law principles.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Changes to Terms</h2>
