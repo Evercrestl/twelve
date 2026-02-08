@@ -67,14 +67,14 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-4 text-gray-400">
-              <li className="flex"><MapPin className="mr-2 text-brand-accent" size={20} /> N Western St ,	San Juan	Metro Manila 1502 Philippines</li>
+              <li className="flex"><MapPin className="mr-2 text-brand-accent" size={20} /> Belvedere RD, Cape Town ,	7700 South Africa</li>
               <li className="flex"><Phone className="mr-2 text-brand-accent" size={20} /> +27 70 462 0709</li>
               <li className="flex"><Mail className="mr-2 text-brand-accent" size={20} /> support@evercrestl.com</li>
             </ul>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Evercrest Lending. All rights reserved.</p>
-        </div>
+            <p>&copy; {new Date().getFullYear()} Evercrest Lending. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>

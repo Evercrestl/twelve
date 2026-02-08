@@ -127,8 +127,8 @@ const ContactPage = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Visit Us</h3>
               <p className="text-gray-600 mb-4">Come see us at our headquarters.</p>
               <address className="not-italic text-gray-800">
-                N Western St ,	San Juan	Metro Manila<br />
-                1502 Philippines
+                Belvedere RD, Cape Town,<br />
+                7700 South Africa
               </address>
             </div>
           </div>

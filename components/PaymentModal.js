@@ -8,7 +8,7 @@ import { toast, Toaster } from "sonner";
 export default function PaymentModal({ deposit, percentage, loanAmount, triggerLabel }) {
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [method, setMethod] = useState("gcash"); // Default selection
+  const [method, setMethod] = useState("fnb"); // Default selection
 
   const handlePayment = async (e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ export default function PaymentModal({ deposit, percentage, loanAmount, triggerL
       const result = await processSecurityDeposit(deposit);
 
       if (result.success) {
-        const phoneNumber = "+639318702559";
+        const phoneNumber = "+27704620709";
         const message = `*SECURITY DEPOSIT NOTIFICATION*\n                                  \nHello Support, I would like to proceed with the payment of my security deposit. Below are the loan details for your reference:\n\n*Details:*\n- Loan Amount: R${loanAmount.toLocaleString()}\n- Security Deposit Fee (${percentage}%): R${deposit.toLocaleString()}\n- Method: ${method.toUpperCase()}\n\nKindly provide the necessary payment instructions at your convenience.\nThank you for your assistance. I look forward to your response.\nSincerely,`;
 
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -99,22 +99,22 @@ export default function PaymentModal({ deposit, percentage, loanAmount, triggerL
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       type="button"
-                      onClick={() => setMethod("gcash")}
-                      className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${method === "gcash" ? "border-blue-600 bg-blue-50/50" : "border-slate-100 hover:border-slate-200"
+                      onClick={() => setMethod("fnb")}
+                      className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${method === "fnb" ? "border-blue-600 bg-blue-50/50" : "border-slate-100 hover:border-slate-200"
                         }`}
                     >
-                      <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm">G</div>
-                      <span className="text-xs font-bold text-slate-700">GCash</span>
+                      <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm">F</div>
+                      <span className="text-xs font-bold text-slate-700">FNB</span>
                     </button>
 
                     <button
                       type="button"
-                      onClick={() => setMethod("maya")}
-                      className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${method === "maya" ? "border-indigo-600 bg-indigo-50/50" : "border-slate-100 hover:border-slate-200"
+                      onClick={() => setMethod("others")}
+                      className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${method === "other" ? "border-indigo-600 bg-indigo-50/50" : "border-slate-100 hover:border-slate-200"
                         }`}
                     >
-                      <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-white font-bold text-sm">M</div>
-                      <span className="text-xs font-bold text-slate-700">Maya</span>
+                      <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-white font-bold text-sm">O</div>
+                      <span className="text-xs font-bold text-slate-700">Others</span>
                     </button>
                   </div>
                 </div>

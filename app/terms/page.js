@@ -6,7 +6,7 @@ const TermsPage = () => {
   return (
     <div className="min-h-screen flex flex-col font-sans bg-gray-50">
       <Navbar />
-      
+
       <div className="bg-white pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Terms and Conditions</h1>
@@ -66,8 +66,8 @@ const TermsPage = () => {
           </p>
           <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
             <p className="font-semibold text-gray-900">Evercrest Lending Legal Team</p>
-            <p className="text-gray-600">N Western St ,	San Juan</p>
-            <p className="text-gray-600">Metro Manila 1502 Philippines</p>
+            <p className="text-gray-600">Belvedere RD, Cape Town ,</p>
+            <p className="text-gray-600">7700 South Africa</p>
             <p className="text-gray-600 mt-2">Email: legal@evercrestlending.com</p>
             <p className="text-gray-600">Phone: +27 70 462 0709</p>
           </div>
